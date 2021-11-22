@@ -1,0 +1,36 @@
+body{
+	margin:0;
+	
+}
+
+h1{
+	background-color: tomato;
+	color: #fff;
+	text-align:center;
+}
+p{
+	padding:20px;
+	font-size:20px;
+	text-align:justify;
+	
+}
+.img-100{
+	width:100%;
+}
+.image{
+	float:left;
+	width:50%;
+	overflow:hidden;
+	background-color:skyblue;
+}
+.image-wraper{
+	float:left;
+	width:50%;
+	background-color:green;
+}
+.img-small{
+	width:250px;
+	float:left;
+	margin-right:10px;
+	
+}
