@@ -1,47 +1,25 @@
 body{
 	margin:auto 0;
 }
+.parent{
+    width: 400px;
+    height: 400px;
+    border: 3px solid blue;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
 .one{
-	width:400px;
-	height:200px;
-	background-color:#9b59b6;
-	position: absolute;
-	z-index:1
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    position: absolute;
+    right: 100%;
 }
 .two{
-	width:400px;
-	height:200px;
-	background-color:#27ae60;
-	position: absolute;
-	z-index:3;
-}
-.three{
-	width:400px;
-	height:200px;
-	background-color:#2c3e50;
-	position: absolute;
-	z-index:2;
-}
-.main-content-area{
-	width:400px;
-	color:#fff;
-}
-.board-img{
-	width:600px;
-	position: absolute;
-	left:0;
-	top:0;
-	z-index:-1;
-	
-}
-.main-content{
-	position: relative;
-	padding-left: 70px;
-    padding-top: 60px;
-}
-.main-content p{
-	text-align: justify;
-}
-.main-content h2{
-	text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+    position: absolute;
+    left: 100%;
 }
