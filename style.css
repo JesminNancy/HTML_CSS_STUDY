@@ -1,7 +1,19 @@
-.one > :nth-child(odd){
-    background-color: brown;
+.one > p::first-letter{
+	color:red;
+	font-size:30px;
+	
 }
-
-.two :nth-child(n+4):nth-child(even):nth-child(-n+12){
-    background-color:yellow;    
+.three p::first-line{
+	background-color: green;
+	font-size:30px;
+	color:#fff;
+	
+}
+::marker{
+	color:red;
+	font-size:25px;
+}
+.four ::selection{
+	background-color: blue;
+	color:#fff;
 }
