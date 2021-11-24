@@ -1,56 +1,7 @@
-body{
-	margin:0;
+.one > :nth-child(odd){
+    background-color: brown;
 }
-.mainmenu{
-	background-color: #2980b9;
-}
-.mainmenu ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-.mainmenu > ul > li{
-	float: left;
-	position: relative;
-}
-.mainmenu ul::after{
-	content: '';
-	display: block;
-	clear: both;
-}
-.mainmenu ul li a{
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 20px;
-	display: block;
-}
-.mainmenu ul li:hover{
-	background-color: #f39c12;
-}
-.mainmenu ul ul{
-	background-color: #27ae60;
-	position: absolute;
-	left:0; 
-	top:100%;
-	display:none;
-}
-.mainmenu ul li:hover > ul{
-	display:block;
-}
-.mainmenu ul ul li:hover{
-	background-color: #7f8c8d;
-}
-.mainmenu ul li ul li{
-	width:160px;
-	position: relative;
-}
-.mainmenu ul ul  ul{
-	position: absolute;
-	top:0;
-	left:100%;
-	background-color: #16a085;
-	display: none;
-}
-.mainmenu ul li ul li:hover ul{
-	display:block;
+
+.two :nth-child(n+4):nth-child(even):nth-child(-n+12){
+    background-color:yellow;    
 }
