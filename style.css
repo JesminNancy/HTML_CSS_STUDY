@@ -1,19 +1,55 @@
-.one > p::first-letter{
-	color:red;
-	font-size:30px;
-	
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.three p::first-line{
-	background-color: green;
-	font-size:30px;
-	color:#fff;
-	
+body{
+    background-color:#bdc3c7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-::marker{
-	color:red;
-	font-size:25px;
+.w-33-3{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
 }
-.four ::selection{
-	background-color: blue;
-	color:#fff;
+.card_container{
+    overflow: hidden;
+    margin-top: 100px;
+}
+.card img{
+    width: 100%;
+    transition: .5s;
+}
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    transition: .5s;
+    overflow: hidden;
+}
+.card-content{
+    padding: 25px;
+    text-align: center;
+}
+.card h3{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.card p{
+    font-size: 20px;
+}
+.card a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 18px;
+    background-color:#16a085;
+    text-align: center;
+}
+.card:hover img{
+    transform: scale(1.25);
+}
+.img-block{
+    height: 300px;
+    overflow: hidden;
 }
