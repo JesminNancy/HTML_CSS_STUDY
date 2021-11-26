@@ -1,55 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
-    background-color:#bdc3c7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #000;
 }
-.w-33-3{
-    width: 33.33%;
-    float: left;
-    padding: 0 15px;
+.cube_container{
+    position: relative;
+    margin:10% 0 0 40%; 
 }
-.card_container{
-    overflow: hidden;
-    margin-top: 100px;
+.cube{
+    width: 200px;
+    height: 200px;
+    position: absolute;
 }
-.card img{
-    width: 100%;
-    transition: .5s;
+.cube_top{
+    background: url('images/1.webp') no-repeat center center / cover;
+    transform: rotate(-44deg) skew(15deg, 15deg);
 }
-.card {
-    background-color: #fff;
-    border-radius: 10px;
-    transition: .5s;
-    overflow: hidden;
+.cube_left{
+    background: url('images/img1.jpg') no-repeat center center / cover;
+    transform: translate(-44%, 75%) rotate(14deg) skew(15deg, 15deg);
 }
-.card-content{
-    padding: 25px;
-    text-align: center;
-}
-.card h3{
-    font-size: 35px;
-    margin-bottom: 15px;
-}
-.card p{
-    font-size: 20px;
-}
-.card a{
-    text-decoration: none;
-    display: block;
-    padding: 20px 0;
-    color: #fff;
-    font-size: 18px;
-    background-color:#16a085;
-    text-align: center;
-}
-.card:hover img{
-    transform: scale(1.25);
-}
-.img-block{
-    height: 300px;
-    overflow: hidden;
+.cube_right{
+    background: url('images/img.jpg') no-repeat center center / cover;
+    transform: translate(44%, 77%) rotate(-15deg) skew(-15deg, -15deg);
 }
